@@ -21,8 +21,8 @@ go mod <- 필요모듈 정리
 
 ## How To installation
 
-  git clone Go-Golila-Chat-Api
+    git clone Go-Golila-Chat-Api
   
-  docker-compose up -d --build
+    docker-compose up -d --build
   
 
