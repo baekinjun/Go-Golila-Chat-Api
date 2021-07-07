@@ -18,6 +18,13 @@ go mod <- 필요모듈 정리
 
 3.유저마다 고유 uid 를 가지고 방을 만들어 join_room 을 사용하여 채팅할수있도록 설계 하였다.
 
+## 저장
+
+postgresql 의 notify listen 을 활용하여 비동기 방식으로 저장 
+
+채팅 이벤트 발생시 해당 데이터를 notify 를 통해 저장서버의 listen 쪽으로 데이터를 넘기고 
+
+저장서버에서 인서트 시킨다.
 
 ## How To installation
 
